@@ -1,0 +1,60 @@
+{
+  "ecmaVersion": 5,
+  "plugins": {
+    "guess-types": {
+      
+    },
+    "jshint": {
+      "config": {
+        "bitwise": true,
+        "camelcase": true,
+        "curly": true,
+        "immed": true,
+        "indent": 2,
+        "latedef": true,
+        "newcap": true,
+        "noarg": true,
+        "nonew": true,
+        "trailing": true,
+        "maxerr": 50,
+        "undef": true,
+        "unused": true,
+        "boss": true,
+        "eqnull": true,
+        "esnext": true,
+        "sub": true,
+        "browser": true,
+        "devel": true,
+        "globals": {
+          "atelier": true,
+          "define": true,
+		  "chrome": true,
+          "ionic": true,
+          "require": true,
+          "toString": true,
+          "angular": true,
+          "console":true,
+		  "alert":true,
+          "confirm":true,
+		  "prompt":true,
+          "innerHeight":true,
+          "innerWidth":true,
+          "outerHeight":true,
+          "pageXOffset":true,
+          "pageYOffset":true,
+          "self":true,
+          "screenLeft":true,
+          "screenTop":true,
+          "screenX":true,
+          "screenY":true,
+          "$":true
+        }
+      }
+    }
+  },
+  "jshint_filter": "*lib/ionic/js/*:*.min.js",
+  "libs": [
+    "EMSS",
+    "browser"
+  ]
+}

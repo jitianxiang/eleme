@@ -90,7 +90,7 @@
                 threshold: 0.1,
                 speed: 800
               },
-              bounce: false
+              momentum: false
             })
 
             //借用实时监听滑动位置，计算出当前处于page的index值

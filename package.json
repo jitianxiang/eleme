@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "better-scroll": "^1.9.1",
+    "better-scroll": "^1.10.1",
     "cube-ui": "^1.7.3",
-    "node-sass": "^4.8.3",
+    "node-sass": "^4.9.0",
     "vue": "^2.5.2",
     "vue-concise-slider": "^2.4.8",
     "vue-resource": "^1.5.0",
